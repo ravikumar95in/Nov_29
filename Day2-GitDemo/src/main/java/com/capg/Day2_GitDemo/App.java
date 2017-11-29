@@ -10,6 +10,11 @@ public class App
     {
         System.out.println( "Hello World!" ); 
         System.out.println( "Have nice day!" );
-        
+        show();
+    }
+    
+    public static void show() {
+    	
+    	System.out.println("Show method..");
     }
 }
